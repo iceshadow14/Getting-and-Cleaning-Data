@@ -7,12 +7,12 @@ and summaries calculated, along with units, and any other relevant information.
 * data.x, data.y and data.subject merge the previous datasets to further analysis.
 * data.extract.x is the extract of mean and standard deviation for each measurement which names in features.mean.std
 * A similar approach is taken with activity names through the data.activity.labels variable
-* data merges data.subject, data.y.named and data.extract.x in a big dataset.
+* data merges data.extract.x, data.y and data.subject into a big dataset.
 * Finally, data.averages contains the relevant averages which will be later stored in a .txt file. ddply() from the plyr package is used to apply colMeans() and ease the development.
 
 ## Identifiers
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
+* subject - The ID of the test subject
+* activity - The type of activity performed when the corresponding measurements were taken
 
 ## Measurements
 * tBodyAccMeanX
